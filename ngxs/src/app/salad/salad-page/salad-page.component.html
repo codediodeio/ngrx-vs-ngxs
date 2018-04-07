@@ -1,0 +1,31 @@
+<p>Lazy Loaded Order Page</p>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h3>Add Toppings</h3>
+            
+            <topping-list></topping-list>
+            <button class="btn btn-outline-warning" (click)="startOver()">Start Over</button>
+        </div>
+        <div class="col-6">
+            <img src="https://goo.gl/kMUFpy" width="250px">
+            <h3><span class="badge badge-success">{{ price$ | async | currency }}</span></h3>
+            <h4>Dressing: {{ dressing$ | async }}</h4>
+
+            <ul>
+                <li *ngFor="let topping of (salad$ | async)?.toppings">
+                    <span class="badge badge-success">{{ topping }}</span>
+                </li>
+            </ul>
+        </div>
+
+        <hr>
+
+    </div>
+
+
+</div>
