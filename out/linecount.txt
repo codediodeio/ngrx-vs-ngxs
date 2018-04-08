@@ -1,0 +1,114 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2018-04-08 07:21:01
+count workspace : /home/jeffd23/apps/lessons/ngxs
+total files : 102
+total code lines : 53532
+total comment lines : 272
+total blank lines : 926
+
+.gitignore, code is 29, comment is 13, blank is 5.
+ngrx/.angular-cli.json, code is 58, comment is 0, blank is 2.
+ngrx/.editorconfig, code is 11, comment is 1, blank is 2.
+ngrx/.gitignore, code is 18, comment is 24, blank is 4.
+ngrx/dist/3rdpartylicenses.txt, code is 169, comment is 0, blank is 42.
+ngrx/dist/favicon.ico, it is a binary file.
+ngrx/dist/index.html, code is 1, comment is 0, blank is 0.
+ngrx/dist/inline.331d21eeb96bcb0ef1bf.bundle.js, code is 1, comment is 0, blank is 0.
+ngrx/dist/main.62702e28fb7c3ac21202.bundle.js, code is 1, comment is 0, blank is 0.
+ngrx/dist/polyfills.0f2328dc7f11d3edf844.bundle.js, code is 1, comment is 0, blank is 0.
+ngrx/dist/stats.json, code is 23883, comment is 0, blank is 487.
+ngrx/dist/styles.2bcb5f317758a0b137ef.bundle.css, code is 1, comment is 2, blank is 0.
+ngrx/e2e/app.e2e-spec.ts, code is 11, comment is 0, blank is 3.
+ngrx/e2e/app.po.ts, code is 9, comment is 0, blank is 2.
+ngrx/e2e/tsconfig.e2e.json, code is 13, comment is 0, blank is 1.
+ngrx/karma.conf.js, code is 30, comment is 3, blank is 1.
+ngrx/package-lock.json, code is 14958, comment is 0, blank is 0.
+ngrx/package.json, code is 54, comment is 0, blank is 0.
+ngrx/protractor.conf.js, code is 23, comment is 2, blank is 3.
+ngrx/README.md, code is 14, comment is 5, blank is 13.
+ngrx/src/app/app-routing.module.ts, code is 11, comment is 1, blank is 2.
+ngrx/src/app/app.component.html, code is 24, comment is 5, blank is 19.
+ngrx/src/app/app.component.scss, code is 0, comment is 0, blank is 0.
+ngrx/src/app/app.component.spec.ts, code is 31, comment is 0, blank is 0.
+ngrx/src/app/app.component.ts, code is 24, comment is 0, blank is 11.
+ngrx/src/app/app.module.ts, code is 50, comment is 4, blank is 8.
+ngrx/src/app/order.service.ts, code is 10, comment is 0, blank is 7.
+ngrx/src/app/salad/salad-page/salad-page.component.html, code is 21, comment is 0, blank is 8.
+ngrx/src/app/salad/salad-page/salad-page.component.scss, code is 1, comment is 0, blank is 0.
+ngrx/src/app/salad/salad-page/salad-page.component.ts, code is 28, comment is 3, blank is 10.
+ngrx/src/app/salad/salad.actions.ts, code is 15, comment is 0, blank is 5.
+ngrx/src/app/salad/salad.module.ts, code is 17, comment is 1, blank is 2.
+ngrx/src/app/salad/salad.reducer.ts, code is 33, comment is 1, blank is 9.
+ngrx/src/app/salad/topping-list/topping-list.component.html, code is 5, comment is 0, blank is 3.
+ngrx/src/app/salad/topping-list/topping-list.component.scss, code is 1, comment is 0, blank is 0.
+ngrx/src/app/salad/topping-list/topping-list.component.spec.ts, code is 20, comment is 0, blank is 5.
+ngrx/src/app/salad/topping-list/topping-list.component.ts, code is 31, comment is 0, blank is 9.
+ngrx/src/app/shared/app.actions.ts, code is 25, comment is 0, blank is 7.
+ngrx/src/app/shared/app.effects.ts, code is 27, comment is 2, blank is 5.
+ngrx/src/app/shared/app.reducer.ts, code is 27, comment is 0, blank is 9.
+ngrx/src/app/shared/router.actions.ts, code is 8, comment is 0, blank is 3.
+ngrx/src/app/shared/router.effects.ts, code is 22, comment is 0, blank is 4.
+ngrx/src/assets/.gitkeep, code is 0, comment is 0, blank is 0.
+ngrx/src/environments/environment.prod.ts, code is 3, comment is 0, blank is 0.
+ngrx/src/environments/environment.ts, code is 3, comment is 4, blank is 1.
+ngrx/src/favicon.ico, it is a binary file.
+ngrx/src/index.html, code is 14, comment is 0, blank is 2.
+ngrx/src/main.ts, code is 9, comment is 0, blank is 3.
+ngrx/src/polyfills.ts, code is 2, comment is 63, blank is 15.
+ngrx/src/styles.scss, code is 12, comment is 2, blank is 2.
+ngrx/src/test.ts, code is 13, comment is 4, blank is 3.
+ngrx/src/tsconfig.app.json, code is 12, comment is 0, blank is 1.
+ngrx/src/tsconfig.spec.json, code is 16, comment is 0, blank is 3.
+ngrx/src/typings.d.ts, code is 4, comment is 1, blank is 0.
+ngrx/tsconfig.json, code is 17, comment is 0, blank is 2.
+ngrx/tslint.json, code is 129, comment is 0, blank is 14.
+ngxs/.angular-cli.json, code is 58, comment is 0, blank is 2.
+ngxs/.editorconfig, code is 11, comment is 1, blank is 2.
+ngxs/.gitignore, code is 18, comment is 24, blank is 4.
+ngxs/e2e/app.e2e-spec.ts, code is 11, comment is 0, blank is 3.
+ngxs/e2e/app.po.ts, code is 9, comment is 0, blank is 2.
+ngxs/e2e/tsconfig.e2e.json, code is 13, comment is 0, blank is 1.
+ngxs/karma.conf.js, code is 30, comment is 3, blank is 1.
+ngxs/package-lock.json, code is 12723, comment is 0, blank is 0.
+ngxs/package.json, code is 53, comment is 0, blank is 0.
+ngxs/protractor.conf.js, code is 23, comment is 2, blank is 3.
+ngxs/README.md, code is 14, comment is 5, blank is 13.
+ngxs/src/app/app-routing.module.ts, code is 10, comment is 0, blank is 2.
+ngxs/src/app/app.component.html, code is 23, comment is 1, blank is 18.
+ngxs/src/app/app.component.scss, code is 0, comment is 0, blank is 0.
+ngxs/src/app/app.component.spec.ts, code is 31, comment is 0, blank is 0.
+ngxs/src/app/app.component.ts, code is 27, comment is 1, blank is 7.
+ngxs/src/app/app.module.ts, code is 28, comment is 1, blank is 4.
+ngxs/src/app/salad/salad-page/salad-page.component.html, code is 21, comment is 0, blank is 10.
+ngxs/src/app/salad/salad-page/salad-page.component.scss, code is 1, comment is 0, blank is 0.
+ngxs/src/app/salad/salad-page/salad-page.component.ts, code is 20, comment is 2, blank is 8.
+ngxs/src/app/salad/salad.actions.ts, code is 7, comment is 4, blank is 3.
+ngxs/src/app/salad/salad.module.ts, code is 19, comment is 0, blank is 3.
+ngxs/src/app/salad/salad.state.ts, code is 36, comment is 9, blank is 12.
+ngxs/src/app/salad/topping-list/topping-list.component.html, code is 5, comment is 0, blank is 2.
+ngxs/src/app/salad/topping-list/topping-list.component.scss, code is 1, comment is 0, blank is 0.
+ngxs/src/app/salad/topping-list/topping-list.component.spec.ts, code is 20, comment is 0, blank is 5.
+ngxs/src/app/salad/topping-list/topping-list.component.ts, code is 26, comment is 0, blank is 9.
+ngxs/src/app/shared/app.actions.ts, code is 13, comment is 0, blank is 5.
+ngxs/src/app/shared/app.state.ts, code is 54, comment is 0, blank is 9.
+ngxs/src/app/shared/router.state.ts, code is 29, comment is 1, blank is 5.
+ngxs/src/assets/.gitkeep, code is 0, comment is 0, blank is 0.
+ngxs/src/environments/environment.prod.ts, code is 3, comment is 0, blank is 0.
+ngxs/src/environments/environment.ts, code is 3, comment is 4, blank is 1.
+ngxs/src/favicon.ico, it is a binary file.
+ngxs/src/index.html, code is 14, comment is 0, blank is 2.
+ngxs/src/main.ts, code is 9, comment is 0, blank is 3.
+ngxs/src/polyfills.ts, code is 2, comment is 63, blank is 15.
+ngxs/src/styles.scss, code is 12, comment is 1, blank is 2.
+ngxs/src/test.ts, code is 13, comment is 4, blank is 3.
+ngxs/src/tsconfig.app.json, code is 12, comment is 0, blank is 1.
+ngxs/src/tsconfig.spec.json, code is 16, comment is 0, blank is 3.
+ngxs/src/typings.d.ts, code is 4, comment is 1, blank is 0.
+ngxs/tsconfig.json, code is 17, comment is 0, blank is 2.
+ngxs/tslint.json, code is 129, comment is 0, blank is 14.
+NOTES.md, code is 12, comment is 4, blank is 9.
+README.md, code is 2, comment is 0, blank is 1.
+===============================================================================

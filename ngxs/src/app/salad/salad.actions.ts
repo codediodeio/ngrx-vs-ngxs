@@ -6,9 +6,3 @@ export class AddTopping {
 export class StartOver {
     static readonly type = '[salad] start over';
 }
-
-// export class UpdateDressing {
-//     static readonly type = '[salad] update dressing';
-//     constructor(public payload: string) {}
-// }
-

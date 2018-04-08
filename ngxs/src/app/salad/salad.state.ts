@@ -2,7 +2,6 @@
 import { State, Action, StateContext, Select, Selector, Store } from '@ngxs/store';
 import { AppState, AppStateModel } from '../shared/app.state';
 import { AddTopping, StartOver } from './salad.actions';
-// import { }
 
 
 export interface SaladStateModel {
@@ -23,23 +22,19 @@ const defaults: SaladStateModel = {
 })
 export class SaladState {
 
-    // constructor(private store: Store) {
-    //     super();
-    // }
-
     @Selector()
     static getDressing(state: SaladStateModel) {
         return state.dressing;
     }
 
     @Action(AddTopping)
-    // add() {}
-    // add({ getState, patchState }: StateContext<SaladStateModel>, { payload }: AddTopping) {
-    //   const current = getState().toppings;
-    //   patchState({ toppings: [...current, payload] });
+    // addTopping({ getState, patchState }: StateContext<SaladStateModel>, { payload }: AddTopping) {
+    //     const current = getState();
+    //     const toppings = [...current.toppings, payload ];
+    //     patchState({ toppings, price: current.price + 0.5 });
     // }
 
-    add(context: StateContext<SaladStateModel>, action: AddTopping) {
+    addTopping(context: StateContext<SaladStateModel>, action: AddTopping) {
         const current = context.getState();
 
         const toppings = [...current.toppings, action.payload ];

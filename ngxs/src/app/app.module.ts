@@ -11,6 +11,7 @@ import { RouterState } from './shared/router.state';
 import { NgxsModule } from '@ngxs/store';
 import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
+import { OrderService } from './order.service';
 
 @NgModule({
   declarations: [
@@ -21,13 +22,13 @@ import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
     AppRoutingModule,
     FormsModule,
     NgxsModule.forRoot([
+      RouterState,
       AppState,
-      RouterState
     ]),
     NgxsReduxDevtoolsPluginModule.forRoot(),
     NgxsLoggerPluginModule.forRoot()
   ],
-  providers: [],
+  providers: [OrderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

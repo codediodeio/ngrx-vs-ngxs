@@ -1,6 +1,6 @@
 <div *ngIf="state$ | async as state">
 
-<h1>NGXS Salad Bar</h1>
+<h1><span class="badge badge-primary">NGXS</span> Salad Bar</h1>
 
 
 
@@ -18,7 +18,7 @@
 
     <router-outlet></router-outlet>
 
-    <button class="btn btn-outline-dark btn-block loading" (click)="confirm()">Confirm Order</button>
+    <button *ngIf="state.app.username" class="btn btn-outline-dark btn-block loading" (click)="confirm()">Confirm Order</button>
 
 
     <div [ngSwitch]="state.app.status">
@@ -34,8 +34,6 @@
         <div *ngSwitchCase="'declined'" class="alert alert-danger">
             Declined :(
         </div>
-
-        <!-- <button *ngSwitchDefault class="btn btn-outline-dark btn-block loading" (click)="confirm()">Confirm Order</button> -->
 
     </div>
 
