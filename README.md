@@ -13,8 +13,13 @@ cd ngxs && npm i
 cd ngrx && npm i
 ```
 
-## Salad Bar
+How do I compare the code footprint between projects? Here's a simple formula:
 
+`( {NgRx}.reducer.ts +  {NgRx}.effects.ts ) ~= {NGXS}.state.ts`
+
+Both projects have action classes defined in *.actions.ts files
+
+Also, take a look at `salad-page.component.ts` to compare state *selectors* between libraries.
 
 ## Benchmarks
 
@@ -25,7 +30,6 @@ cd ngxs && npm run analyzer
 cd ngrx && npm run analyzer
 ```
 
-### 
 
 
 

@@ -627,6 +627,594 @@
                     "filename": "README.md"
                 }
             ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2018-04-08 09:28:39",
+            "filesum": 96,
+            "codesum": 29458,
+            "commentsum": 258,
+            "blanksum": 378,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 13,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".prettierrc"
+                },
+                {
+                    "blank": 2,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "ngrx/.angular-cli.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "ngrx/.editorconfig"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 24,
+                    "filename": "ngrx/.gitignore"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "ngrx/e2e/app.e2e-spec.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ngrx/e2e/app.po.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "ngrx/e2e/tsconfig.e2e.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 30,
+                    "comment": 3,
+                    "filename": "ngrx/karma.conf.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 14958,
+                    "comment": 0,
+                    "filename": "ngrx/package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "ngrx/package.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 2,
+                    "filename": "ngrx/protractor.conf.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 14,
+                    "comment": 5,
+                    "filename": "ngrx/README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "ngrx/src/app/app-routing.module.ts"
+                },
+                {
+                    "blank": 17,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/app.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/app.component.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/app.component.spec.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/app.component.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 50,
+                    "comment": 1,
+                    "filename": "ngrx/src/app/app.module.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/order.service.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/salad-page/salad-page.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/salad-page/salad-page.component.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/salad-page/salad-page.component.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/salad.actions.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "ngrx/src/app/salad/salad.module.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 30,
+                    "comment": 1,
+                    "filename": "ngrx/src/app/salad/salad.reducer.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/topping-list/topping-list.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/topping-list/topping-list.component.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/topping-list/topping-list.component.spec.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/salad/topping-list/topping-list.component.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/shared/app.actions.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/shared/app.effects.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/shared/app.reducer.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/shared/router.actions.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "ngrx/src/app/shared/router.effects.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "ngrx/src/assets/.gitkeep"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "ngrx/src/environments/environment.prod.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 4,
+                    "filename": "ngrx/src/environments/environment.ts"
+                },
+                {
+                    "filename": "ngrx/src/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "ngrx/src/index.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ngrx/src/main.ts"
+                },
+                {
+                    "blank": 15,
+                    "code": 2,
+                    "comment": 63,
+                    "filename": "ngrx/src/polyfills.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 2,
+                    "filename": "ngrx/src/styles.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 4,
+                    "filename": "ngrx/src/test.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ngrx/src/tsconfig.app.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "ngrx/src/tsconfig.spec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 1,
+                    "filename": "ngrx/src/typings.d.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "ngrx/tsconfig.json"
+                },
+                {
+                    "blank": 14,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "ngrx/tslint.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "ngxs/.angular-cli.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "ngxs/.editorconfig"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 24,
+                    "filename": "ngxs/.gitignore"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "ngxs/e2e/app.e2e-spec.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ngxs/e2e/app.po.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "ngxs/e2e/tsconfig.e2e.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 30,
+                    "comment": 3,
+                    "filename": "ngxs/karma.conf.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12723,
+                    "comment": 0,
+                    "filename": "ngxs/package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "ngxs/package.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 2,
+                    "filename": "ngxs/protractor.conf.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 14,
+                    "comment": 5,
+                    "filename": "ngxs/README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/app-routing.module.ts"
+                },
+                {
+                    "blank": 17,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/app.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/app.component.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/app.component.spec.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 27,
+                    "comment": 1,
+                    "filename": "ngxs/src/app/app.component.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/app.module.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/order.service.ts"
+                },
+                {
+                    "blank": 10,
+                    "code": 19,
+                    "comment": 2,
+                    "filename": "ngxs/src/app/salad/salad-page/salad-page.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/salad/salad-page/salad-page.component.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 20,
+                    "comment": 2,
+                    "filename": "ngxs/src/app/salad/salad-page/salad-page.component.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/salad/salad.actions.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/salad/salad.module.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 36,
+                    "comment": 5,
+                    "filename": "ngxs/src/app/salad/salad.state.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/salad/topping-list/topping-list.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/salad/topping-list/topping-list.component.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/salad/topping-list/topping-list.component.spec.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/salad/topping-list/topping-list.component.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/shared/app.actions.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "ngxs/src/app/shared/app.state.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 10,
+                    "filename": "ngxs/src/app/shared/router.state.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "ngxs/src/assets/.gitkeep"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "ngxs/src/environments/environment.prod.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 4,
+                    "filename": "ngxs/src/environments/environment.ts"
+                },
+                {
+                    "filename": "ngxs/src/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "ngxs/src/index.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ngxs/src/main.ts"
+                },
+                {
+                    "blank": 15,
+                    "code": 2,
+                    "comment": 63,
+                    "filename": "ngxs/src/polyfills.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "ngxs/src/styles.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 4,
+                    "filename": "ngxs/src/test.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ngxs/src/tsconfig.app.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "ngxs/src/tsconfig.spec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 1,
+                    "filename": "ngxs/src/typings.d.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "ngxs/tsconfig.json"
+                },
+                {
+                    "blank": 14,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "ngxs/tslint.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 12,
+                    "comment": 4,
+                    "filename": "NOTES.md"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "README.md"
+                }
+            ]
         }
     ]
 }

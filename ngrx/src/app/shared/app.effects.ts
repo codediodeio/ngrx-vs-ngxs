@@ -3,7 +3,7 @@ import { Action } from '@ngrx/store';
 import { Actions, Effect, ofType } from '@ngrx/effects';
 import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
-import { catchError, map, mergeMap, delay } from 'rxjs/operators';
+import { map, mergeMap } from 'rxjs/operators';
 import { AppActionTypes, OrderFailed, OrderSuccess } from './app.actions';
 import { OrderService } from '../order.service';
 
@@ -14,13 +14,7 @@ export class AppEffects {
     ofType(AppActionTypes.ConfirmOrder),
     mergeMap(action =>
       this.orderService.post().pipe(
-        map(data => {
-          if (data) {
-            return new OrderSuccess();
-          } else {
-            return new OrderFailed();
-          }
-        })
+        map(success => success ? new OrderSuccess() : new OrderFailed())
       )
     )
   );

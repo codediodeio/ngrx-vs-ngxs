@@ -28,8 +28,9 @@ export class AppState {
   confirm({ dispatch, patchState }: StateContext<AppStateModel>) {
     patchState({ status: 'pending' });
 
-    return this.orderService.post()
-               .pipe(tap(success => (success ? dispatch(OrderSuccess) : dispatch(OrderFailed))));
+    return this.orderService.post().pipe(
+      tap(success => (success ? dispatch(OrderSuccess) : dispatch(OrderFailed)))
+    );
   }
 
   @Action(OrderSuccess)
