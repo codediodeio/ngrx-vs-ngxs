@@ -1,6 +1,6 @@
 # One Framework - Two State Management Libraries 
 
-Here we have two Angular apps that are - from the end User's presepective - identical in every way. 
+Here we have two Angular apps that are - from the end user's presepective - identical in every way. 
 
 But from the developer's prespective there is a world of difference. I'm not taking sides here - just want to give you a balanced side-by-side comparison of NGXS and NgRx. 
 
@@ -15,7 +15,7 @@ cd ngrx && npm i
 
 How do I compare the code footprint between projects? Here's a simple formula:
 
-`( {NgRx}.reducer.ts +  {NgRx}.effects.ts ) ~= {NGXS}.state.ts`
+`( {NgRx}.reducer.ts +  {NgRx}.effects.ts ) ≈ {NGXS}.state.ts`
 
 Both projects have action classes defined in *.actions.ts files
 
