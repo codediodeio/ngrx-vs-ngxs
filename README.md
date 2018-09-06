@@ -4,7 +4,7 @@ Here we have two Angular apps that are - from the end user's presepective - iden
 
 But from the developer's prespective there is a world of difference. I'm not taking sides here - just want to give you a balanced side-by-side comparison of NGXS and NgRx. 
 
-Watch the [video and read the article](https://angularfirebase.com). 
+Watch the [video and read the article](https://angularfirebase.com/lessons/ngxs-quick-start-angular-state-management). 
 
 ## Usage
 
